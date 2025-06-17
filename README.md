@@ -20,4 +20,9 @@ pip install fastapi uvicorn sqlalchemy pymysql
 SQLAlchemy is basically referred to as the toolkit of Python SQL that provides developers with the flexibility of using the SQL database. The benefit of using this particular library is to allow Python developers to work with the language's own objects, and not write separate SQL queries. They can basically use Python to access and work with databases. 
 
 SQLAlchemy is also an Object Relational Mapper which is a technique used to convert data between databases or OOP languages such as Python.
+
+``` from sqlalchemy import create_engine, MetaData,select,func```
+</br>
+
+```engine = create_engine("mysql+pymysql://userName:password@host:port/dbName") ```
 </p>
